@@ -14,12 +14,12 @@ To use, take everything in the "template" folder and drop it wherever you're goi
 
 Things to do and notice:
 
-This is a template. Dump your code in between the section you want it to appear. There are comments so you don't get lost in the code.
+*This is a template. Dump your code in between the section you want it to appear. There are comments so you don't get lost in the code.*
 
 ```html
 <div class="section" id="one"> <!-- begin section one -->
 
-	<div class="newstuff">
+	<div class="newstuff"></div>
 
 </div> <!-- end .section#one -->
 ```
@@ -35,7 +35,7 @@ height:100px;
 }
 ```
 
-Keep the "intro" div as a real number, not as auto. This will prevent jumping around when scrolling past the navigation div.
+*Keep the height of the "intro" div as a real number, not as auto. This will prevent jumping around when scrolling past the navigation div.*
 
 ```html
 #intro {
@@ -45,13 +45,13 @@ position relative;
 height:508px;
 }
 ```
-In the file justapage.js, you can adjust the distance above a section that begins the highlight in the navigation. Just can the number for the buffer variable.
+*In the file justapage.js, you can adjust the distance above a section that begins the highlight in the navigation. Just change the number for the buffer variable.*
 
 ```html
 var buffer = 100;
 ```
 
-Check out the [Demo Page](http://paulmolluzzo.github.com/JustaPage/demo) to see JustaPage in action and see more info.
+Check out the [Demo Page](http://paulmolluzzo.github.com/JustaPage/demo) to see JustaPage in action and see more info. Keep in mind that this page is a demonstration, the template is almost completely unstyled. (Those ugly colors won't be there.)
 
 ## License
 
